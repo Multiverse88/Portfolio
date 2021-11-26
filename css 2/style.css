@@ -274,7 +274,7 @@ li .contact:hover {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 15s slider infinite;
+  animation: 20s slider infinite;
   transition: 300ms;
 }
 .experience-text h2 {
