@@ -203,33 +203,30 @@ li .contact:hover {
   animation: slide 16s infinite;
 }
 
-.slideshow .valorant {
+.valorant {
   position: absolute;
   width: 418px;
   height: 206px;
   left: 956px;
   top: 349px;
-  background: url(css 2/valorant.png);
   border-radius: 32px;
 }
 
-.slideshow .apex {
+.apex {
   position: absolute;
   width: 419px;
   height: 206px;
   left: 955px;
   top: 349px;
-  background: url(css 2/apex.png);
   border-radius: 30px;
 }
 
-.slideshow .dota {
+.dota {
   position: absolute;
   width: 419px;
   height: 206px;
   left: 955px;
   top: 349px;
-  background: url(css 2/dota.png);
   border-radius: 36px;
 }
 .experience-text h2 {
