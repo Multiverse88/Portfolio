@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ nav h2 {
   width: 368.63px;
   height: 48.39px;
   left: 89px;
-  top: 65.87px;
+  top: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -176,7 +176,7 @@ header h1 {
   width: 293px;
   height: 42px;
   left: 89px;
-  top: 386px;
+  top: 286px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -190,7 +190,7 @@ header p {
   width: 743px;
   height: 139px;
   left: 89px;
-  top: 428px;
+  top: 328px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -204,7 +204,7 @@ header a {
   width: 205px;
   height: 58.46px;
   left: 139px;
-  top: 530px;
+  top: 430px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -228,7 +228,7 @@ header a:hover {
   width: 650px;
   height: 650px;
   left: 800px;
-  top: 100px;
+  top: 60px;
 }
 
 @keyframes header-container {
