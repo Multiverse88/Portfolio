@@ -215,3 +215,18 @@ header a:hover {
   left: 850px;
   top: 172px;
 }
+
+@keyframes slide {
+  0% {
+    left: -100%;
+  }
+  25% {
+    left: -100%;
+  }
+  75% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
