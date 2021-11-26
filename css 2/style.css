@@ -45,8 +45,8 @@ li .home {
   position: absolute;
   width: 91.63px;
   height: 29.04px;
-  left: 786px;
-  top: 66px;
+  left: 686px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -64,8 +64,8 @@ li .profile {
   position: absolute;
   width: 93.74px;
   height: 29.04px;
-  left: 895.77px;
-  top: 65px;
+  left: 795px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -79,12 +79,12 @@ li .profile:hover {
   transform: translateY(8px);
   color: grey;
 }
-li .about {
+li .hobby {
   position: absolute;
   width: 89.52px;
   height: 28.07px;
-  left: 1028.48px;
-  top: 62.97px;
+  left: 895px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -98,12 +98,12 @@ li .about:hover {
   transform: translateY(8px);
   color: grey;
 }
-li .hobby {
+li .experience {
   position: absolute;
   width: 104.27px;
   height: 28.07px;
-  left: 1151.7px;
-  top: 62.97px;
+  left: 995px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -121,8 +121,8 @@ li .contact {
   position: absolute;
   width: 122.17px;
   height: 25.16px;
-  left: 1272.83px;
-  top: 65.87px;
+  left: 1145px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -163,24 +163,33 @@ li .contact:hover {
   line-height: 27px;
 }
 
-.about-text h2 {
+.profile-text img {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 1020px;
+  top: 100px;
+  background: url(profile.jpg);
+  border-radius: 155px;
+}
+.hobby-text h2 {
   position: absolute;
   width: 141px;
   height: 53px;
   left: 113px;
-  top: 328px;
+  top: 360px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 54px;
 }
-.about-text p {
+.hobby-text p {
   position: absolute;
   width: 635px;
   height: 134px;
   left: 97px;
-  top: 409px;
+  top: 425px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -188,6 +197,41 @@ li .contact:hover {
   line-height: 27px;
 }
 
+.slideshow {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+.slideshow .valorant {
+  position: absolute;
+  width: 418px;
+  height: 206px;
+  left: 956px;
+  top: 349px;
+  background: url(css 2/valorant.png);
+  border-radius: 32px;
+}
+
+.slideshow .apex {
+  position: absolute;
+  width: 419px;
+  height: 206px;
+  left: 955px;
+  top: 349px;
+  background: url(css 2/apex.png);
+  border-radius: 30px;
+}
+
+.slideshow .dota {
+  position: absolute;
+  width: 419px;
+  height: 206px;
+  left: 955px;
+  top: 349px;
+  background: url(css 2/dota.png);
+  border-radius: 36px;
+}
 .experience-text h2 {
   position: absolute;
   width: 141px;
