@@ -167,7 +167,7 @@ li .contact:hover {
   position: absolute;
   width: 230px;
   height: 230px;
-  left: 1020px;
+  left: 1025px;
   top: 100px;
   background: url(profile.jpg);
   border-radius: 155px;
@@ -195,12 +195,6 @@ li .contact:hover {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-}
-
-.slideshow {
-  width: 100%;
-  display: flex;
-  animation: slide 16s infinite;
 }
 
 .valorant {
@@ -265,8 +259,8 @@ li .contact:hover {
   position: absolute;
   width: 418px;
   height: 206px;
-  left: 956px;
-  top: 349px;
+  left: 950px;
+  top: 360px;
 }
 #slider figure img {
   width: 20%;
@@ -280,7 +274,7 @@ li .contact:hover {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 10s slider infinite;
+  animation: 15s slider infinite;
   transition: 300ms;
 }
 .experience-text h2 {
