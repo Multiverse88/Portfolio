@@ -231,7 +231,7 @@ header a:hover {
   top: 100px;
 }
 
-@keyframes slide {
+@keyframes header-container {
   0% {
     left: -100%;
   }
