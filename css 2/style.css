@@ -262,6 +262,11 @@ li .contact:hover {
 
 #slider {
   overflow: hidden;
+  position: absolute;
+  width: 418px;
+  height: 206px;
+  left: 956px;
+  top: 349px;
 }
 #slider figure img {
   width: 20%;
@@ -275,7 +280,8 @@ li .contact:hover {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 2s slider infinite;
+  animation: 10s slider infinite;
+  transition: 300ms;
 }
 .experience-text h2 {
   position: absolute;
