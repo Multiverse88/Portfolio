@@ -94,7 +94,7 @@ li .hobby {
   transition: 300ms;
 }
 
-li .about:hover {
+li .hobby:hover {
   transform: translateY(8px);
   color: grey;
 }
