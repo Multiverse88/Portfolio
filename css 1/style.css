@@ -61,81 +61,96 @@ li .home {
   position: absolute;
   width: 91.63px;
   height: 29.04px;
-  left: 786px;
-  top: 66px;
+  left: 686px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
   transition: 300ms;
+  text-decoration: none;
+  color: black;
 }
 
 li .home:hover {
   transform: translateY(8px);
+  color: grey;
 }
 li .profile {
   position: absolute;
   width: 93.74px;
   height: 29.04px;
-  left: 895.77px;
-  top: 65px;
+  left: 795px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
   transition: 300ms;
+  text-decoration: none;
+  color: black;
 }
 
 li .profile:hover {
   transform: translateY(8px);
-}
-li .about {
-  position: absolute;
-  width: 89.52px;
-  height: 28.07px;
-  left: 1028.48px;
-  top: 62.97px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  transition: 300ms;
-}
-
-li .about:hover {
-  transform: translateY(8px);
+  color: grey;
 }
 li .hobby {
   position: absolute;
-  width: 104.27px;
+  width: 89.52px;
   height: 28.07px;
-  left: 1151.7px;
-  top: 62.97px;
+  left: 895px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
+  text-decoration: none;
+  color: black;
   transition: 300ms;
 }
 
 li .hobby:hover {
   transform: translateY(8px);
+  color: grey;
 }
-li .contact {
+li .experience {
   position: absolute;
-  width: 122.17px;
-  height: 25.16px;
-  left: 1272.83px;
-  top: 65.87px;
+  width: 104.27px;
+  height: 28.07px;
+  left: 995px;
+  top: 31px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
   transition: 300ms;
+  text-decoration: none;
+  color: black;
+}
+
+li .experience:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+li .contact {
+  position: absolute;
+  width: 122.17px;
+  height: 25.16px;
+  left: 1145px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  transition: 300ms;
+  text-decoration: none;
+  color: black;
 }
 
 li .contact:hover {
   transform: translateY(8px);
+  color: grey;
 }
 .nav-item li a {
   color: #021718;
