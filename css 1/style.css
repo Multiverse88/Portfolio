@@ -221,7 +221,7 @@ header a {
 }
 
 header a:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px);z
 }
 .home-image img {
   position: absolute;
