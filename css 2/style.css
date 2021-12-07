@@ -173,6 +173,11 @@ li .contact:hover {
   top: 100px;
   background: url(profile.jpg);
   border-radius: 155px;
+  transition: 300ms;
+}
+
+.profile-text img:hover {
+  transform: scale(1.2);
 }
 .hobby-text h2 {
   position: absolute;

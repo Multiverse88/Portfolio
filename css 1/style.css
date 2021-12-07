@@ -221,7 +221,7 @@ header a {
 }
 
 header a:hover {
-  transform: translateY(-8px);z
+  transform: translateY(-8px);
 }
 .home-image img {
   position: absolute;
@@ -229,19 +229,4 @@ header a:hover {
   height: 650px;
   left: 800px;
   top: 60px;
-}
-
-@keyframes header-container {
-  0% {
-    left: -100%;
-  }
-  25% {
-    left: -100%;
-  }
-  75% {
-    left: 0;
-  }
-  100% {
-    left: 100%;
-  }
 }
