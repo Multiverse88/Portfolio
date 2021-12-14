@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -255,7 +259,7 @@ li .contact:hover {
   overflow: hidden;
   position: absolute;
   width: 418px;
-  height: 206px;
+  height: 100%px;
   left: 950px;
   top: 360px;
 }
@@ -279,7 +283,7 @@ li .contact:hover {
   overflow: hidden;
   position: absolute;
   width: 418px;
-  height: 206px;
+  height: 100%px;
   left: 950px;
   top: 630px;
 }
