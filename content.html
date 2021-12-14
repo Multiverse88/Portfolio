@@ -7,7 +7,6 @@
     <title>Ainan Bahrul Ihsan</title>
     <link rel="stylesheet" href="css 2/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="nav-container">
@@ -27,7 +26,7 @@
               <a href="#" class="experience">Experience</a>
             </li>
             <li>
-              <a href="#" class="contact">Contact</a>
+              <a href="" class="contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -96,9 +95,22 @@
             <img src="css 2/Instagram.png">
         </a>
     </div>
-    <div class="footer">
-      <form>
-        
+    <div class="footer-container">
+      <form id="contact" action="" method="post">
+        <h3>Contact me</h3>
+        <h4>Silahkan masukan Email anda disini</h4>
+        <fieldset>
+          <input placeholder="Nama anda" type="text" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Email anda" type="email"  required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Silahkan ketik pesan anda disini....."  required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
       </form>
     </div>
   </body>

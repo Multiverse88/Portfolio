@@ -177,7 +177,7 @@ li .contact:hover {
 }
 
 .profile-text img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .hobby-text h2 {
   position: absolute;
@@ -421,4 +421,113 @@ li .contact:hover {
 
 .instagram-icon:hover {
   transform: translateY(-8px);
+}
+.footer-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact h3 {
+  color: cyan;
+  display: block;
+  font-size: 30px;
+  top: 1200px;
+  position: absolute;
+  text-align: left;
+  display: flex;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  font-size: 20px;
+  position: absolute;
+  top: 1250px;
+  text-align: left;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 30px 30px 10px;
+  min-width: 100%;
+  padding: 50px;
+  width: 100%;
+  position: absolute;
+  top: 1250px;
+  right: 500px;
+}
+
+fieldset input[type="text"] {
+  position: absolute;
+  top: 0px;
+  padding: 20px;
+  margin: 20px;
+  left: 20px;
+  padding-right: 215px;
+}
+
+fieldset input[type="email"] {
+  position: absolute;
+  padding: 20px;
+  margin: 20px;
+  left: 20px;
+  top: 80px;
+  padding-right: 215px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  position: absolute;
+  top: 180px;
+  padding: 20px;
+  right: 5px;
+  left: 40px;
+  padding-right: 220px;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0cf;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 300px;
+  right: 5px;
+  left: 40px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #09c;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 5);
+}
+
+#contact input:focus, #contact textarea:focus {
+  outline: 0;
+  border: 1px; solid #999;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
 }
