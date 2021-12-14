@@ -5,11 +5,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  cursor: url("css 1/normal.cur") auto;
 }
 
 .nav-container {
   position: absolute;
+  width: 1200px;
   height: 125px;
   left: 0px;
   top: 0px;
@@ -231,7 +231,7 @@ header a:hover {
 }
 
 .footer h4 {
-  left: 600px;
+  left: 650px;
   padding: 25px;
   position: absolute;
   top: 665px;
