@@ -430,22 +430,16 @@ li .contact:hover {
 }
 
 #contact h3 {
-  color: cyan;
+  color: black;
   display: block;
-  font-size: 30px;
-  top: 1200px;
+  font-size: 36px;
+  top: 1130px;
   position: absolute;
   text-align: left;
   display: flex;
+  right: 745px;
 }
 
-#contact h4 {
-  margin: 5px 0 15px;
-  font-size: 20px;
-  position: absolute;
-  top: 1250px;
-  text-align: left;
-}
 
 fieldset {
   border: medium none !important;
@@ -454,7 +448,7 @@ fieldset {
   padding: 50px;
   width: 100%;
   position: absolute;
-  top: 1250px;
+  top: 1150px;
   right: 500px;
 }
 
