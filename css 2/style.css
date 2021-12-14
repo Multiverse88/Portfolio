@@ -16,10 +16,6 @@ body {
   background-color: rgba(236, 236, 236, 0);
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 nav {
   display: flex;
