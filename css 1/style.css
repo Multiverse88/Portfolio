@@ -61,7 +61,7 @@ li .home {
   position: absolute;
   width: 91.63px;
   height: 29.04px;
-  left: 686px;
+  left: 685px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -229,4 +229,11 @@ header a:hover {
   height: 650px;
   left: 800px;
   top: 60px;
+}
+
+.footer h4 {
+  left: 600px;
+  padding: 25px;
+  position: absolute;
+  top: 665px;
 }
