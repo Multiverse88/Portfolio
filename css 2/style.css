@@ -46,7 +46,7 @@ li .home {
   position: absolute;
   width: 91.63px;
   height: 29.04px;
-  left: 686px;
+  left: 885px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -65,7 +65,7 @@ li .profile {
   position: absolute;
   width: 93.74px;
   height: 29.04px;
-  left: 795px;
+  left: 995px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -84,7 +84,7 @@ li .hobby {
   position: absolute;
   width: 89.52px;
   height: 28.07px;
-  left: 895px;
+  left: 1095px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -103,7 +103,7 @@ li .experience {
   position: absolute;
   width: 104.27px;
   height: 28.07px;
-  left: 995px;
+  left: 1195px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -123,7 +123,7 @@ li .contact {
   position: absolute;
   width: 122.17px;
   height: 25.16px;
-  left: 1145px;
+  left: 1345px;
   top: 31px;
   font-style: normal;
   font-weight: normal;
@@ -524,4 +524,11 @@ fieldset input[type="email"] {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+.footer h4 {
+  left: 50%;
+  padding: 25px;
+  position: absolute;
+  top: 1600px;
 }
