@@ -20,7 +20,6 @@ body {
   background-color: rgba(236, 236, 236, 0);
 }
 
-
 nav {
   display: flex;
   align-items: center;
@@ -301,6 +300,7 @@ li .contact:hover {
   font-size: 0;
   animation: 25s slider infinite;
   transition: 400ms;
+  border-radius: 10px;
 }
 
 @keyframes slider2 {
@@ -433,13 +433,12 @@ li .contact:hover {
   color: black;
   display: block;
   font-size: 36px;
-  top: 1130px;
+  top: 1150px;
   position: absolute;
   text-align: left;
   display: flex;
-  right: 745px;
+  right: 130px;
 }
-
 
 fieldset {
   border: medium none !important;
@@ -448,8 +447,8 @@ fieldset {
   padding: 50px;
   width: 100%;
   position: absolute;
-  top: 1150px;
-  right: 500px;
+  top: 1170px;
+  right: 0px;
 }
 
 fieldset input[type="text"] {
@@ -509,9 +508,10 @@ fieldset input[type="email"] {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 5);
 }
 
-#contact input:focus, #contact textarea:focus {
+#contact input:focus,
+#contact textarea:focus {
   outline: 0;
-  border: 1px; solid #999;
+  border: 1px;
 }
 
 ::-webkit-input-placeholder {
