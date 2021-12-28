@@ -451,6 +451,10 @@ fieldset {
   right: 0px;
 }
 
+fieldset input,
+textarea {
+  border-radius: 10px;
+}
 fieldset input[type="text"] {
   position: absolute;
   top: 0px;
