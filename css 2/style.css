@@ -1,0 +1,541 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  position: absolute;
+  width: 1200px;
+  height: 125px;
+  left: -200px;
+  top: 0px;
+  right: -300px;
+  background-color: rgba(236, 236, 236, 0);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: absolute;
+  margin-left: -500px;
+}
+
+.nav-item li {
+  position: flex;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+}
+
+li .home {
+  position: absolute;
+  width: 91.63px;
+  height: 29.04px;
+  left: 885px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  transition: 300ms;
+  text-decoration: none;
+  color: black;
+}
+
+li .home:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+li .profile {
+  position: absolute;
+  width: 93.74px;
+  height: 29.04px;
+  left: 995px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  transition: 300ms;
+  text-decoration: none;
+  color: black;
+}
+
+li .profile:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+li .hobby {
+  position: absolute;
+  width: 89.52px;
+  height: 28.07px;
+  left: 1095px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: black;
+  transition: 300ms;
+}
+
+li .hobby:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+li .experience {
+  position: absolute;
+  width: 104.27px;
+  height: 28.07px;
+  left: 1195px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  transition: 300ms;
+  text-decoration: none;
+  color: black;
+}
+
+li .experience:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+
+li .contact {
+  position: absolute;
+  width: 122.17px;
+  height: 25.16px;
+  left: 1345px;
+  top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  transition: 300ms;
+  text-decoration: none;
+  color: black;
+}
+
+li .contact:hover {
+  transform: translateY(8px);
+  color: grey;
+}
+
+.profile-text h2 {
+  position: absolute;
+  width: 141px;
+  height: 53px;
+  left: 113px;
+  top: 92px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.profile-text p {
+  position: absolute;
+  width: 635px;
+  height: 170px;
+  left: 97px;
+  top: 158px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.profile-text img {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 900px;
+  top: 100px;
+  background: url(profile.jpg);
+  border-radius: 155px;
+  transition: 300ms;
+}
+
+.profile-text img:hover {
+  transform: scale(1.1);
+}
+.hobby-text h2 {
+  position: absolute;
+  width: 141px;
+  height: 53px;
+  left: 110px;
+  top: 350px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+.hobby-text p {
+  position: absolute;
+  width: 635px;
+  height: 134px;
+  left: 97px;
+  top: 420px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.valorant {
+  position: absolute;
+  width: 418px;
+  height: 206px;
+  left: 700px;
+  top: 349px;
+  border-radius: 32px;
+}
+
+.apex {
+  position: absolute;
+  width: 419px;
+  height: 206px;
+  left: 700px;
+  top: 349px;
+  border-radius: 30px;
+}
+
+.dota {
+  position: absolute;
+  width: 419px;
+  height: 206px;
+  left: 700px;
+  top: 349px;
+  border-radius: 36px;
+}
+
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+}
+
+#slider {
+  overflow: hidden;
+  position: absolute;
+  width: 418px;
+  height: 100%px;
+  left: 800px;
+  top: 360px;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slider infinite;
+  transition: 300ms;
+}
+
+#slider2 {
+  overflow: hidden;
+  position: absolute;
+  width: 418px;
+  height: 100%px;
+  left: 800px;
+  top: 630px;
+}
+#slider2 figure img {
+  width: 20%;
+  float: left;
+}
+
+#slider2 figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s slider infinite;
+  transition: 400ms;
+  border-radius: 10px;
+}
+
+@keyframes slider2 {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.experience-text h2 {
+  position: absolute;
+  width: 141px;
+  height: 53px;
+  left: 110px;
+  top: 630px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.experience-text p {
+  position: absolute;
+  width: 635px;
+  height: 110px;
+  left: 90px;
+  top: 700px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+.contact-text h2 {
+  position: absolute;
+  width: 161px;
+  height: 53px;
+  left: 615px;
+  top: 950px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.whatsapp-icon {
+  position: absolute;
+  width: 126.27px;
+  height: 142.35px;
+  left: 300px;
+  top: 1000px;
+  transform: matrix(0.96, 0.26, -0.27, 0.97, 0, 0);
+  transition: 300ms;
+}
+
+.whatsapp-icon:hover {
+  transform: translateY(-8px);
+}
+.facebook-icon {
+  position: absolute;
+  width: 141.01px;
+  height: 153.76px;
+  left: 500px;
+  top: 1000px;
+  transform: matrix(0.96, 0.26, -0.27, 0.97, 0, 0);
+  transition: 300ms;
+}
+
+.facebook-icon:hover {
+  transform: translateY(-8px);
+}
+.youtube-icon {
+  position: absolute;
+  width: 154.85px;
+  height: 155.73px;
+  left: 710Px;
+  top: 1000px;
+  transform: matrix(0.96, 0.24, -0.3, 0.97, 0, 0);
+  transition: 300ms;
+}
+
+.youtube-icon:hover {
+  transform: translateY(-8px);
+}
+.instagram-icon {
+  position: absolute;
+  width: 143.61px;
+  height: 161.23px;
+  left: 930px;
+  top: 1000px;
+  transform: matrix(0.96, 0.24, -0.3, 0.97, 0, 0);
+  transition: 300ms;
+}
+
+.instagram-icon:hover {
+  transform: translateY(-8px);
+}
+.footer-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact h3 {
+  color: black;
+  display: block;
+  font-size: 36px;
+  top: 1250px;
+  position: absolute;
+  text-align: left;
+  display: flex;
+  right: 130px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 30px 30px 10px;
+  min-width: 100%;
+  padding: 50px;
+  width: 100%;
+  position: absolute;
+  top: 1280px;
+  right: 0px;
+}
+
+fieldset input,
+textarea {
+  border-radius: 10px;
+}
+fieldset input[type="text"] {
+  position: absolute;
+  top: 0px;
+  padding: 20px;
+  margin: 20px;
+  left: 30px;
+  padding-right: 215px;
+}
+
+fieldset input[type="email"] {
+  position: absolute;
+  padding: 20px;
+  margin: 20px;
+  left: 30px;
+  top: 80px;
+  padding-right: 215px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  position: absolute;
+  top: 180px;
+  padding: 20px;
+  left: 50px;
+  padding-right: 250px;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0cf;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 300px;
+  right: 5px;
+  left: 50px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #09c;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.footer h4 {
+  left: 570px;
+  padding: 25px;
+  position: absolute;
+  top: 1680px;
+  text-align: center;
+}
